@@ -1,0 +1,73 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 30px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#nuevaTarea {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#agregarTarea {
+    background-color: #198754;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.resumen {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.completada {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.btn-eliminar {
+    background-color: transparent;
+    color: #dc3545;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}

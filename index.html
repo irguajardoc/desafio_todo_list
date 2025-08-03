@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+        <hr>
+        <label for="nuevaTarea">Nueva tarea</label>
+        <div class="input-group">
+            <input id="nuevaTarea" placeholder="Nueva tarea">
+            <button id="agregarTarea">Agregar</button>
+        </div>
+        <div class="resumen">
+            <p><strong>Total:</strong> <span id="total-tareas">0</span></p>
+            <p><strong>Realizadas:</strong> <span id="tareas-realizadas">0</span></p>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tareas"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
